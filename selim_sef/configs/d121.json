@@ -1,0 +1,41 @@
+{
+  "arch": "densenet_unet",
+  "segnetwork": {
+    "seg_classes": 3,
+    "backbone_arch": "densenet121"
+
+  },
+  "network": {
+  },
+  "optimizer": {
+    "freeze_first_epoch": true,
+    "start_zero": true,
+    "zero_decoder": false,
+    "batch_size": 8,
+    "type": "AdamW",
+    "learning_rate": 0.0002,
+    "weigh_decay": 0.0001,
+    "schedule": {
+      "type": "multistep",
+      "epochs": 60,
+      "mode": "epoch",
+      "params": {
+        "gamma": 0.5,
+        "milestones": [1, 5, 15, 30, 45, 55]
+      }
+    }
+  },
+  "input": {
+    "random_crop": [384,384],
+    "color_jitter_train": true,
+    "rescale_prob": 0.5,
+    "random_rotate": {"angle":  5, "prob":  0.3},
+    "crop_size_range": [0.6,1.5]
+},
+  "loss": {
+    "weights": {"focal": 1, "dice" : 1},
+    "channel_weights": [1, 0.1, 0.5],
+    "channel_losses" : [["focal", "dice"], ["focal", "dice"], ["focal", "dice"]],
+    "per_image": false
+  }
+}

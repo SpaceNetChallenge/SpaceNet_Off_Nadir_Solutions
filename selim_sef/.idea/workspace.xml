@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39b31a1b-72f6-43c9-be53-cbd3e1d29406" name="Default Changelist" comment="" />
+    <list id="9f29aa41-9803-4e3e-9183-ef32ae76230b" name="Revert: new folds" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/spacenet$dense_data.coverage" NAME="dense_data Coverage Results" MODIFIED="1545079733807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/spacenet$senet.coverage" NAME="senet Coverage Results" MODIFIED="1544598441723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zoo" />
+    <SUITE FILE_PATH="coverage/spacenet$unet.coverage" NAME="unet Coverage Results" MODIFIED="1545162423686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zoo" />
+    <SUITE FILE_PATH="coverage/spacenet$t.coverage" NAME="t Coverage Results" MODIFIED="1545422051456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$mask_from_geo.coverage" NAME="mask_from_geo Coverage Results" MODIFIED="1544392598448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/spacenet$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1545415682168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$m.coverage" NAME="m Coverage Results" MODIFIED="1544557091662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$create_folds.coverage" NAME="create_folds Coverage Results" MODIFIED="1545071109177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$c.coverage" NAME="c Coverage Results" MODIFIED="1544560314571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inference" />
+    <SUITE FILE_PATH="coverage/spacenet$train_classifier.coverage" NAME="train_classifier Coverage Results" MODIFIED="1545346432229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$evaluate_labels.coverage" NAME="evaluate_labels Coverage Results" MODIFIED="1545351817918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$predict_trees.coverage" NAME="predict_trees Coverage Results" MODIFIED="1545351871829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spacenet$generate_polygons.coverage" NAME="generate_polygons Coverage Results" MODIFIED="1545417825818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/spacenet$ensemble.coverage" NAME="ensemble Coverage Results" MODIFIED="1545416056555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset/dense_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-309">
+              <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_all.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inference/predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/r101.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9679">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/predict.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/multiprocessing/pool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="643" selection-start-line="643" selection-end-line="643" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ensemble.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>+ 1</find>
+      <find>view</find>
+      <find>angle</find>
+      <find>&quot;angle&quot;</find>
+      <find>739451_3720189</find>
+      <find>746651_3725139</find>
+      <find>/media/selim/sota/datasets/spacenet/SpaceNet-Off-Nadir_Test/</find>
+      <find>oof/</find>
+      <find>--folds_csv folds16.csv --fold 0</find>
+      <find>cv2.resize</find>
+      <find>get_na</find>
+      <find>sc50</find>
+      <find>rescale_prob</find>
+      <find>get_nadir</find>
+      <find>lea</find>
+      <find>categ</find>
+      <find>nadir</find>
+      <find>LGBM_THREADS</find>
+      <find>train_pred_folder</find>
+      <find>training</find>
+      <find>get</find>
+      <find>744851_3728739</find>
+      <find>.png</find>
+      <find>total_cnt</find>
+      <find>$USER_HOME$/kaggle/test</find>
+      <find>$USER_HOME$/kaggle/oof/</find>
+      <find>python</find>
+      <find>fold_3</find>
+      <find>$DATA_PATH &amp;</find>
+      <find>masks_folder</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>--test-epoch 2</replace>
+      <replace>weights/</replace>
+      <replace>+ 27</replace>
+      <replace>$DATA_pATH</replace>
+      <replace>$DATA_PATH</replace>
+      <replace>test/</replace>
+      <replace>predictions/masks</replace>
+      <replace>oof/masks</replace>
+      <replace>oof/masks/</replace>
+      <replace>python3</replace>
+      <replace>fold_2</replace>
+      <replace>$DATA_PATH</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/train_dpn.py" />
+        <option value="$PROJECT_DIR$/configs/dpn92_120.json" />
+        <option value="$PROJECT_DIR$/training/metric.py" />
+        <option value="$PROJECT_DIR$/m.py" />
+        <option value="$PROJECT_DIR$/inference/c.py" />
+        <option value="$PROJECT_DIR$/train_dpn.sh" />
+        <option value="$PROJECT_DIR$/zoo/dpn.py" />
+        <option value="$PROJECT_DIR$/zoo/senet.py" />
+        <option value="$PROJECT_DIR$/train_trees.py" />
+        <option value="$PROJECT_DIR$/configs/sc50_tune.json" />
+        <option value="$PROJECT_DIR$/tune_nadirs_sc50.sh" />
+        <option value="$PROJECT_DIR$/configs/r50.json" />
+        <option value="$PROJECT_DIR$/configs/densenet121.json" />
+        <option value="$PROJECT_DIR$/zoo/densenet.py" />
+        <option value="$PROJECT_DIR$/configs/d161_tune.json" />
+        <option value="$PROJECT_DIR$/tune_dpn161.sh" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/configs/dpn92.json" />
+        <option value="$PROJECT_DIR$/configs/se154.json" />
+        <option value="$PROJECT_DIR$/configs/d92.json" />
+        <option value="$PROJECT_DIR$/train_2.sh" />
+        <option value="$PROJECT_DIR$/zoo/unet.py" />
+        <option value="$PROJECT_DIR$/training/utils.py" />
+        <option value="$PROJECT_DIR$/dataset/dense_transform.py" />
+        <option value="$PROJECT_DIR$/create_folds.py" />
+        <option value="$PROJECT_DIR$/configs/d121.json" />
+        <option value="$PROJECT_DIR$/evaluate_labels.py" />
+        <option value="$PROJECT_DIR$/training/eval.py" />
+        <option value="$PROJECT_DIR$/configs/d161.json" />
+        <option value="$PROJECT_DIR$/inference/predict_oof.py" />
+        <option value="$PROJECT_DIR$/inference/tta.py" />
+        <option value="$PROJECT_DIR$/evaluate.py" />
+        <option value="$PROJECT_DIR$/t.py" />
+        <option value="$PROJECT_DIR$/configs/sc50.json" />
+        <option value="$PROJECT_DIR$/configs/r101.json" />
+        <option value="$PROJECT_DIR$/configs/r34.json" />
+        <option value="$PROJECT_DIR$/ensemble.py" />
+        <option value="$PROJECT_DIR$/predict_trees.py" />
+        <option value="$PROJECT_DIR$/inference/generate_polygons.py" />
+        <option value="$PROJECT_DIR$/generate_polygons.py" />
+        <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/inference/predict.py" />
+        <option value="$PROJECT_DIR$/predict.sh" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/tools/mask_from_geo.py" />
+        <option value="$PROJECT_DIR$/tools/mask_utils.py" />
+        <option value="$PROJECT_DIR$/predict_oof.sh" />
+        <option value="$PROJECT_DIR$/train_classifier.py" />
+        <option value="$PROJECT_DIR$/train_all.sh" />
+        <option value="$PROJECT_DIR$/train.sh" />
+        <option value="$PROJECT_DIR$/dataset/dense_data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="1051" />
+    <option name="width" value="1855" />
+    <option name="height" value="29" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="inference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="lgbm_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="oof" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="predictions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="train_labels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spacenet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacenet" type="462c0819:PsiDirectoryNode" />
+              <item name="weights" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/training" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/weights" />
+      <recent name="$PROJECT_DIR$/configs" />
+      <recent name="$PROJECT_DIR$/training" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.t">
+    <configuration name="ensemble" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spacenet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ensemble.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spacenet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_polygons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spacenet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_polygons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spacenet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict_trees.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spacenet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ensemble" />
+      <item itemvalue="Python.evaluate" />
+      <item itemvalue="Python.predict_trees" />
+      <item itemvalue="Python.generate_polygons" />
+      <item itemvalue="Python.t" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.generate_polygons" />
+        <item itemvalue="Python.ensemble" />
+        <item itemvalue="Python.evaluate" />
+        <item itemvalue="Python.predict_trees" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39b31a1b-72f6-43c9-be53-cbd3e1d29406" name="Default Changelist" comment="" />
+      <changelist id="9f29aa41-9803-4e3e-9183-ef32ae76230b" name="Revert: new folds" comment="" />
+      <created>1543746214044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543746214044</updated>
+      <workItem from="1544385822867" duration="5008000" />
+      <workItem from="1544444740256" duration="8686000" />
+      <workItem from="1544460651739" duration="14429000" />
+      <workItem from="1544476841647" duration="155497000" />
+      <workItem from="1545164669304" duration="46870000" />
+      <workItem from="1545345171237" duration="17186000" />
+      <workItem from="1545419174142" duration="2986000" />
+      <workItem from="1546173988682" duration="20799000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1544445163100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544445163100</updated>
+    </task>
+    <task id="LOCAL-00002" summary="baseline, split by angles">
+      <created>1544468458400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544468458400</updated>
+    </task>
+    <task id="LOCAL-00003" summary="angle fusion">
+      <created>1544635534986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544635534986</updated>
+    </task>
+    <task id="LOCAL-00004" summary="minor fix">
+      <created>1544644633341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544644633341</updated>
+    </task>
+    <task id="LOCAL-00005" summary="scse maxout">
+      <created>1544645223203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544645223203</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated evaluation script">
+      <created>1544652824950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544652824950</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tune nadris">
+      <created>1544821900557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544821900557</updated>
+    </task>
+    <task id="LOCAL-00008" summary="folds by angles">
+      <created>1544910006383</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544910006383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new folds">
+      <created>1544910816740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544910816740</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed dpn">
+      <created>1544910866633</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544910866633</updated>
+    </task>
+    <task id="LOCAL-00011" summary="config fixes">
+      <created>1544912122137</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544912122137</updated>
+    </task>
+    <task id="LOCAL-00012" summary="config fixes">
+      <created>1544912265586</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544912265586</updated>
+    </task>
+    <task id="LOCAL-00013" summary="random rotate augmentation">
+      <created>1544971946469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544971946469</updated>
+    </task>
+    <task id="LOCAL-00014" summary="random rotate augmentation">
+      <created>1544975633657</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1544975633657</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new configs">
+      <created>1545080492825</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545080492825</updated>
+    </task>
+    <task id="LOCAL-00016" summary="augmentation changed">
+      <created>1545080516999</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545080516999</updated>
+    </task>
+    <task id="LOCAL-00017" summary="configs">
+      <created>1545080637647</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1545080637647</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config">
+      <created>1545080834297</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1545080834297</updated>
+    </task>
+    <task id="LOCAL-00019" summary="remove old folds">
+      <created>1545080935555</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1545080935555</updated>
+    </task>
+    <task id="LOCAL-00020" summary="oof prediction">
+      <created>1545157480270</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1545157480270</updated>
+    </task>
+    <task id="LOCAL-00021" summary="predict">
+      <created>1545159680010</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1545159680010</updated>
+    </task>
+    <task id="LOCAL-00022" summary="669">
+      <created>1545260345989</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1545260345989</updated>
+    </task>
+    <task id="LOCAL-00023" summary="classifier not changed">
+      <created>1545335466283</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545335466283</updated>
+    </task>
+    <task id="LOCAL-00024" summary="670">
+      <created>1545341044140</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545341044140</updated>
+    </task>
+    <task id="LOCAL-00025" summary="trees">
+      <created>1545341464770</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545341464770</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ensemble">
+      <created>1545349804008</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1545349804008</updated>
+    </task>
+    <task id="LOCAL-00027" summary="trees sota">
+      <created>1545352069212</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1545352069212</updated>
+    </task>
+    <task id="LOCAL-00028" summary="trees">
+      <created>1545413216724</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1545413216724</updated>
+    </task>
+    <task id="LOCAL-00029" summary="final shot">
+      <created>1545422424349</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1545422424349</updated>
+    </task>
+    <task id="LOCAL-00030" summary="configs">
+      <created>1546175109349</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1546175109349</updated>
+    </task>
+    <task id="LOCAL-00031" summary="prediction script">
+      <created>1546182634025</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1546182634025</updated>
+    </task>
+    <task id="LOCAL-00032" summary="removed redundant code">
+      <created>1546183100511</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1546183100511</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test scripts">
+      <created>1546203717281</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546203717281</updated>
+    </task>
+    <task id="LOCAL-00034" summary="scripts">
+      <created>1546203749219</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1546203749219</updated>
+    </task>
+    <task id="LOCAL-00035" summary="prediction script">
+      <created>1546203809314</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1546203809314</updated>
+    </task>
+    <task id="LOCAL-00036" summary="docker fixes">
+      <created>1546206000752</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1546206000752</updated>
+    </task>
+    <task id="LOCAL-00037" summary="docker fix">
+      <created>1546209278253</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1546209278253</updated>
+    </task>
+    <task id="LOCAL-00038" summary="predict script fixed">
+      <created>1546231110588</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1546231110588</updated>
+    </task>
+    <task id="LOCAL-00039" summary="masks from geo">
+      <created>1546260773065</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1546260773065</updated>
+    </task>
+    <task id="LOCAL-00040" summary="contour masks">
+      <created>1546261053043</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1546261053043</updated>
+    </task>
+    <task id="LOCAL-00041" summary="oof">
+      <created>1546261381643</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1546261381643</updated>
+    </task>
+    <task id="LOCAL-00042" summary="oof">
+      <created>1546261406068</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1546261406069</updated>
+    </task>
+    <task id="LOCAL-00043" summary="classifier">
+      <created>1546262560898</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1546262560898</updated>
+    </task>
+    <task id="LOCAL-00044" summary="ensemble">
+      <created>1546262849288</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1546262849288</updated>
+    </task>
+    <task id="LOCAL-00045" summary="train scripts">
+      <created>1546263344277</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1546263344277</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="271520000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2954925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295513" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6505536" weight="0.38164002" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49149045" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49749583" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50250417" side_tool="true" weight="0.39" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49749583" visible="true" weight="0.50777775" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32999444" />
+      <window_info anchor="right" id="IDEtalk" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="augmentation changed" />
+    <MESSAGE value="config" />
+    <MESSAGE value="remove old folds" />
+    <MESSAGE value="oof prediction" />
+    <MESSAGE value="predict" />
+    <MESSAGE value="669" />
+    <MESSAGE value="classifier not changed" />
+    <MESSAGE value="670" />
+    <MESSAGE value="trees sota" />
+    <MESSAGE value="trees" />
+    <MESSAGE value="final shot" />
+    <MESSAGE value="configs" />
+    <MESSAGE value="removed redundant code" />
+    <MESSAGE value="test scripts" />
+    <MESSAGE value="scripts" />
+    <MESSAGE value="prediction script" />
+    <MESSAGE value="docker fixes" />
+    <MESSAGE value="docker fix" />
+    <MESSAGE value="predict script fixed" />
+    <MESSAGE value="masks from geo" />
+    <MESSAGE value="contour masks" />
+    <MESSAGE value="oof" />
+    <MESSAGE value="classifier" />
+    <MESSAGE value="ensemble" />
+    <MESSAGE value="train scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="train scripts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_classifier.py</url>
+          <line>454</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_classifier.py</url>
+          <line>453</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate_polygons.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>nadir &lt; 20</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nadir&lt; 200</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pretrained_dict[self.first_layer_params_name + '.weight'].data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.max(mask)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>image_id</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.join(mask_dir, &quot;d161&quot;, image_id)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>results</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pred_props</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.join(truth_folder, filename[:-4] + &quot;.tif&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.state_dict()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list(d.encoder_stages[0].parameters())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/configs/d92.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/sc50.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/r34.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/d161.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/d121.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/masks/sc50/Pan-Sharpen_Atlanta_nadir49_catid_1030010003492700_732251_3741339.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/masks/sc50/Pan-Sharpen_Atlanta_nadir49_catid_1030010003492700_733151_3724689.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/masks/sc50/Pan-Sharpen_Atlanta_nadir49_catid_1030010003492700_734951_3744489.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submission.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_polygons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="110" column="2" lean-forward="true" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/dense_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/mask_from_geo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks/mask_733601_3724689.tif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks/mask_735401_3738639.tif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks/mask_741251_3742239.tif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks/mask_748451_3722889.tif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks/mask_742601_3727389.tif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/mask_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_733601_3724689.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_734051_3740889.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_735401_3738639.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_736751_3730539.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_735401_3743139.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_741251_3742239.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_labels/masks_all/mask_745301_3723339.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict_oof.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir7_catid_1030010003D22F00_735401_3738639.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir7_catid_1030010003D22F00_742601_3727389.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir10_catid_1030010003CAF100_742601_3727389.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir16_catid_1030010002649200_735401_3738639.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir49_catid_1030010003492700_742601_3727389.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir50_catid_10300100039E6200_735401_3738639.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir53_catid_1030010003193D00_741251_3742239.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir53_catid_1030010003193D00_747101_3741339.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/d121_0/Pan-Sharpen_Atlanta_nadir52_catid_1030010003BDDC00_735401_3738639.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="643" selection-start-line="643" selection-end-line="643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/ensemble/Pan-Sharpen_Atlanta_nadir7_catid_1030010003D22F00_741251_3742239.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oof/masks/ensemble/Pan-Sharpen_Atlanta_nadir7_catid_1030010003D22F00_735401_3738639.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9679">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ensemble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/r101.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/dense_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
