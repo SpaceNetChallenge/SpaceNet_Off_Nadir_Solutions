@@ -1,0 +1,11 @@
+data
+working
+archive
+*.md
+*.yml
+!working/cv.txt
+!working/models/v12_f0/v12_f0_best
+!working/models/v12_f1/v12_f1_best
+!working/models/v12_f2/v12_f2_best
+!working/models/vgg16-397923af.pth
+wdata
