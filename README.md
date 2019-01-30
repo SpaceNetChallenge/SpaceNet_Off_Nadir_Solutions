@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://spacenet.ai"><img src="https://spacenet.ai/wp-content/uploads/2019/01/SpaceNet-Logo-2019_white_web2-768x193.png" width="350" alt="SpaceNet LLC"></a>
+<a href="https://spacenet.ai"><img src="sn_logo.png" width="350" alt="SpaceNet LLC"></a>
 </p>
 <h1 align="center">SpaceNet Challenge Round 4: Off-Nadir Buildings</h1>
 <h2 align="center">Competitor solutions</h2>
@@ -12,4 +12,4 @@ The five subdirectories in this repository comprise the code for the winning sol
 - Written summaries of the submissions by the competitors
 - Links to download the competitors' trained models
 
-Questions about SpaceNet? Check out our website at https://spacenet.ai. 
+Questions about SpaceNet? Check out our website at https://spacenet.ai.

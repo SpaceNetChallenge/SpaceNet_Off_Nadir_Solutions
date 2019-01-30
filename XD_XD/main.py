@@ -1,19 +1,6 @@
 """
 XD_XD's solution for the SpaceNet Off-Nadir Building Detection Challenge
 
-      ∩＿＿＿∩
-     |ノ      ヽ
-    /   ●    ● | 深層学習まるで分からんクマ──！！
-   |     (_●_) ミ
-  彡､     |∪|  ､｀＼
-/ ＿＿    ヽノ /´>   )
-(＿＿＿）     /  (_／
-  |        /
-  |   ／＼  ＼
-  | /     )   )
-   ∪     （   ＼
-           ＼＿)
-
 ** Usage
 
  $ python main.py <sub-command> [options]
