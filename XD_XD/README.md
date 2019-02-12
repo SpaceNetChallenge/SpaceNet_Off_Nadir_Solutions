@@ -34,8 +34,3 @@ I tried to use a touching border mask[2], but it doesn’t significantly improve
 
 [2] "[ods.ai] topcoders, 1st place solution" https://www.kaggle.com/c/data-science-bowl-2018/discussion/54741
 
-### Bad user interface, but clever rules and guidelines
-
-(This is a messages to TopCoder admin.)
-
-I feel that TopCoder's UI (user interface) is bad. There is no direct link to the page that submits a code from the leader board page. There are too few links to the registration page, and it’s hard to find the link for beginners. There are many other complaints about UI... However, the contest rules and guidelines are very well designed. The hardware limitation and requiring a Dockerized solution is a clever rule. As for the fairness and reproducibility, I prefer TopCoder's rule rather than Kaggle Kernel.
