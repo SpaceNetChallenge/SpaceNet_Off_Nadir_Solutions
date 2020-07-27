@@ -6,7 +6,7 @@
 <br>
 
 ## Summary
-The five subdirectories in this repository comprise the code for the winning solutions of SpaceNet 4: Off-Nadir Building Detection hosted by TopCoder. Each subdirectory contains the competitors' written descriptions of their solution to the challenge. See the blog post on CosmiQ Works' blog [The DownlinQ](https://medium.com/the-downlinq/the-spacenet-challenge-off-nadir-buildings-introducing-the-winners-b60f2b700266) for an additional summary.
+The five subdirectories in this repository comprise the code for the winning solutions of SpaceNet 4: Off-Nadir Building Detection hosted by TopCoder. Each subdirectory contains the competitors' written descriptions of their solution to the challenge. See the blog post on CosmiQ Works' blog [The DownlinQ](https://medium.com/the-downlinq/spacenet-6-announcing-the-winners-df817712b515) for an additional summary.
 
 ## Coming soon
 - Links to download the competitors' trained models
